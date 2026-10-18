@@ -1,0 +1,15 @@
+{
+	"name": "cindy-deepseek-search",
+	"version": "1.0.0",
+	"description": "DeepSeek Search / Fetch web tools for Cindy (Pi): web_search + web_fetch",
+	"type": "module",
+	"keywords": ["pi-package", "cindy", "deepseek", "web-search", "web-fetch", "pi-extension"],
+	"license": "MIT",
+	"pi": {
+		"extensions": ["./extensions/search.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"typebox": "*"
+	}
+}

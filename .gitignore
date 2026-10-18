@@ -1,0 +1,12 @@
+# 密钥与本地文件
+key.txt
+.env
+.env.*
+
+# 依赖与日志
+node_modules/
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
